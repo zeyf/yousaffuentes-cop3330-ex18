@@ -43,9 +43,9 @@ public class App {
 
         System.out.println(
                 type == 1 ?
-                        String.format("The temperature in Celsius is %.0f", calculation)
+                        String.format("The temperature in Celsius is %.0f.", calculation)
                         :
-                        String.format("The temperature in Farenheit is %.0f", calculation)
+                        String.format("The temperature in Farenheit is %.0f.", calculation)
         );
 
 
